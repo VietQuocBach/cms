@@ -1,11 +1,7 @@
-import { Box, LinearProgress } from "@mui/material";
-
 function DashboardPage() {
-    return <Box display={"flex"} flex={1}>
-        <Box width={"20%"}>
-            <LinearProgress />
-        </Box>
-    </Box>
+    return <div>
+        Dashboard page
+    </div>
 }
 
-export default DashboardPage;
+export default DashboardPage
