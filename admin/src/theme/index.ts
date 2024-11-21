@@ -1,13 +1,16 @@
 import { createTheme } from "@mui/material";
-import { purple } from "@mui/material/colors";
+import { indigo, purple } from "@mui/material/colors";
+
+import typography from './typography';
 
 const theme = createTheme({
     palette: {
         primary: {
-            light: purple[400],
-            main: purple[800],
+            light: indigo[500],
+            main: indigo[500],
         }
-    }
+    },
+    typography,
 })
 
 export default theme
